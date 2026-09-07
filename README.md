@@ -49,25 +49,29 @@ DSA/
 - Prepare for coding interviews
 - Maintain consistent coding practice
 
-## Progress
+## 📊 DSA Progress
 
-Arrays: In Progress
+My current learning progress:
 
-2D Arrays: In Progress
+- 🟢 Arrays — In Progress
+- 🟢 2D Arrays — In Progress
+- ⚪ Strings — Not Started
+- ⚪ Linked List — Not Started
+- ⚪ Stack — Not Started
+- ⚪ Queue — Not Started
+- ⚪ Recursion — Not Started
+- ⚪ Trees — Not Started
+- ⚪ Graphs — Not Started
+- ⚪ Dynamic Programming — Not Started
 
-Strings: Coming Soon
+### 🎯 Current Focus
 
-Linked List: Coming Soon
+**Arrays & 2D Arrays**
 
-Stack: Coming Soon
+Currently focusing on building strong fundamentals, improving problem-solving skills, and writing clean Java code.
 
-Queue: Coming Soon
+> 🚀 Progress is updated as I learn and solve new problems.
 
-Trees: Coming Soon
-
-Graphs: Coming Soon
-
-Dynamic Programming: Coming Soon
 
 ## How to Run
 
