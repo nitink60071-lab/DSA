@@ -12,7 +12,7 @@ This repository contains the problems and concepts I solve while improving my pr
 - Finding Maximum and Minimum
 - Sum and Multiplication of Arrays
 - Basic Array Operations
-- More DSA topics coming soon...
+- More DSA topics coming soon
 
 ## Tech Stack
 
@@ -23,9 +23,9 @@ This repository contains the problems and concepts I solve while improving my pr
 
 ## Repository Structure
 
-DSA2-Java/
+DSA2-Java
 |
-|-- Arrays/
+|-- Arrays
 |   |-- Arr2D.java
 |   |-- Arr2D_2.java
 |   |-- Arr2D_3.java
@@ -49,21 +49,29 @@ DSA2-Java/
 
 ## Progress
 
-Arrays - In Progress
-2D Arrays - In Progress
-Strings - Coming Soon
-Linked List - Coming Soon
-Stack - Coming Soon
-Queue - Coming Soon
-Trees - Coming Soon
-Graphs - Coming Soon
-Dynamic Programming - Coming Soon
+Arrays: In Progress
+
+2D Arrays: In Progress
+
+Strings: Coming Soon
+
+Linked List: Coming Soon
+
+Stack: Coming Soon
+
+Queue: Coming Soon
+
+Trees: Coming Soon
+
+Graphs: Coming Soon
+
+Dynamic Programming: Coming Soon
 
 ## How to Run
 
-Clone the repository using:
+Clone the repository:
 
-git clone https://github.com/nitink60071-lab/DSA
+git clone https://github.com/nitink60071-lab/DSA.git
 
 Open the project in Visual Studio Code or any Java IDE and run the desired Java file.
 
@@ -73,6 +81,6 @@ This repository represents my journey of learning Data Structures and Algorithms
 
 I am continuously practicing new problems and improving my problem-solving skills.
 
-"Consistency beats intensity. Keep coding, keep improving." 💻
+Consistency beats intensity. Keep coding, keep improving. 💻
 
 ⭐ If you find this repository useful, consider giving it a star!
