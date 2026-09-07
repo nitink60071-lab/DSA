@@ -23,21 +23,23 @@ This repository contains the problems and concepts I solve while improving my pr
 
 ## Repository Structure
 
-DSA2-Java
-|
-|-- Arrays
-|   |-- Arr2D.java
-|   |-- Arr2D_2.java
-|   |-- Arr2D_3.java
-|   |-- maxValue.java
-|   |-- maxValue2D.java
-|   |-- minValue.java
-|   |-- minValue2D.java
-|   |-- mul2D.java
-|   |-- Sum.java
-|   |-- sum2D.java
-|
-|-- README.md
+```text
+DSA/
+│
+├── Arrays/
+│   ├── Arr2D.java
+│   ├── Arr2D_2.java
+│   ├── Arr2D_3.java
+│   ├── maxValue.java
+│   ├── maxValue2D.java
+│   ├── minValue.java
+│   ├── minValue2D.java
+│   ├── mul2D.java
+│   ├── Sum.java
+│   └── sum2D.java
+│
+└── README.md
+```
 
 ## Goals
 
