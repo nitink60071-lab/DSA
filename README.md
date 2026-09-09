@@ -53,16 +53,17 @@ DSA/
 
 My current learning progress:
 
-- 🟢 Arrays — In Progress...
-- 🟢 2D Arrays — In Progress...
-- ⚪ Strings — Starting Soon...
-- ⚪ Linked List — Not Started
-- ⚪ Stack — Not Started
-- ⚪ Queue — Not Started
-- ⚪ Recursion — Not Started
-- ⚪ Trees — Not Started
-- ⚪ Graphs — Not Started
-- ⚪ Dynamic Programming — Not Started
+-  Basics — Completed
+-  Arrays — In Progress...
+-  2D Arrays — In Progress...
+-  Strings — Starting Soon...
+-  Linked List — Not Started
+-  Stack — Not Started
+-  Queue — Not Started
+-  Recursion — Not Started
+-  Trees — Not Started
+-  Graphs — Not Started
+-  Dynamic Programming — Not Started
 
 ### 🎯 Current Focus
 
