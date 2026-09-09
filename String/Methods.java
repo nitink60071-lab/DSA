@@ -46,5 +46,15 @@ public class Methods {
             System.out.println("Value of char: " + ch);
         }
 
+        String input = "My, Name, is, Nitin, Kumar";
+        String[] words = input.split(",");
+        for(String str5: words) {
+            System.out.println(str5);
+        }
+
+        String name7 = "Kumar";
+        String name8 = name7.replace('K', 't');
+        System.out.println(name8);
+
     }
 }
