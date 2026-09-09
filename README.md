@@ -53,9 +53,9 @@ DSA/
 
 My current learning progress:
 
-- 🟢 Arrays — In Progress
-- 🟢 2D Arrays — In Progress
-- ⚪ Strings — Not Started
+- 🟢 Arrays — In Progress...
+- 🟢 2D Arrays — In Progress...
+- ⚪ Strings — Starting Soon...
 - ⚪ Linked List — Not Started
 - ⚪ Stack — Not Started
 - ⚪ Queue — Not Started
