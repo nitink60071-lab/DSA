@@ -34,5 +34,17 @@ public class Methods {
         System.out.println(num + 1);       // 2703
         System.out.println(strr + 1);      // 27021
 
+        String name5 = "Nitin Kumar";
+        System.out.println(name5.startsWith("Nitin"));  // true
+        System.out.println(name5.startsWith("Kumar"));  // false
+        System.out.println(name5.endsWith("Kumar")); // true
+
+        String name6 = "Nitin";
+        char[] crr = name6.toCharArray();
+        //print the char array =>
+        for(char ch: crr) {
+            System.out.println("Value of char: " + ch);
+        }
+
     }
 }
