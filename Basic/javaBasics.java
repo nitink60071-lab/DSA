@@ -86,5 +86,7 @@ public class javaBasics {
         float newTotal = total + (0.18f * total);
         System.out.println("Bill with 18% gst :" + newTotal);
 
+        System.out.println("Harsh");
+
     }
 }
