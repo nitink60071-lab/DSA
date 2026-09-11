@@ -31,7 +31,7 @@ public class Ques {
         return reverse;
     }
 
-    //check palindrome or not =>
+    //check String palindrome or not =>
     static boolean checkPalindrome(String str3) {
         String reverse ="";
         int n = str3.length();
@@ -46,7 +46,24 @@ public class Ques {
         }
     }
 
-    
+    // 2nd method to check the string Palindrome or not =>
+    static boolean isPolindrome(String str4) {
+        String original = str4;
+        String reverse = "";
+        int n = str4.length();
+        for(int i = n-1; i>=0; i--) {
+            char ch1 = str4.charAt(i);
+            reverse = reverse + ch1;
+        }
+        for(int i=0; i<original.length(); i++) {
+            char ch2 = original.charAt(i);
+            char ch3 = reverse.charAt(i);
+            if(ch2 != ch3) {
+                return false;
+            }
+        }
+        return true;
+    }
 
 
     public static void main(String[] args) {
@@ -59,7 +76,10 @@ public class Ques {
        /* String str2 = "Hello";
        System.out.println(reverseString(str2)); */
 
-       String str3 = "nitin";
-       System.out.println(checkPalindrome(str3));
+       /* String str3 = "nitin";
+       System.out.println(checkPalindrome(str3));  */
+
+       String str4 = "dad";
+       System.out.println(isPolindrome(str4));
     }
 }
