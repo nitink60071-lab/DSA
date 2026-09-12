@@ -8,6 +8,7 @@ public class BasicMaths {
         }
     }
 
+    // Count digits of Numbers =>
     static int countDigits(int num) {
         int count = 0;
         while(num != 0) {
@@ -18,6 +19,7 @@ public class BasicMaths {
         return count;
     }
 
+    // Print Sum of Digits =>
     static int sumDigits(int num) {
         int sum = 0;
         while( num != 0) {
@@ -28,6 +30,7 @@ public class BasicMaths {
         return sum;
     }
 
+    // Print Reverse of Number =>
     static int reverseNum(int num) {
         int reverse = 0;
         while( num != 0) {
@@ -39,7 +42,8 @@ public class BasicMaths {
 
     }
 
-    static boolean  palindromeNum(int num) {
+    // Check number is palindrome or not =>
+    static void palindromeNum(int num) {
         int reverse = 0;
         int original = num;
         while( num != 0) {
@@ -47,11 +51,21 @@ public class BasicMaths {
             reverse = reverse*10 + digit;
             num = num/10;
         }
-        if(reverse != original) {
-            return false;
+        if(reverse == original) {
+            System.out.println("It is a Palindrome");
         } else {
-            return true;
+            System.out.println("It is not a palindrome");
         }
+    }
+
+    // Check Number is Prime or Not =>
+    static boolean isPrime (int num) {
+        for(int i=2; i<num; i++) {
+            if( num%i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
     static void main() {
         /*int num = 67543;
@@ -66,7 +80,10 @@ public class BasicMaths {
         /* int num = 7689;
         System.out.println("Reverse of number: " + reverseNum(num));  */
 
-        int num = 1221;
-        System.out.println(palindromeNum(num));
+        /*int num = 1221;
+        palindromeNum(num);  */
+
+        int num = 5;
+        System.out.println("Number is Prime: " + isPrime(num));
     }
 }
