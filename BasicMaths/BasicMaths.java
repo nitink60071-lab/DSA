@@ -105,6 +105,21 @@ public class BasicMaths {
         int lcm = prod/ans;
         return lcm;
     }
+
+    static boolean isArmstrong(int num) {
+        int originalNumber = num;
+        int sum = 0;
+        while(num != 0) {
+            int Digit = num% 10;
+            int cubeOfDigit = Digit*Digit*Digit;
+            sum = sum + cubeOfDigit;
+            num = num/10;
+        }
+        if(sum == originalNumber) {
+            return true;
+        } else 
+            return false;
+    }
     static void main() {
         /*int num = 67543;
         printDigits(num); */
@@ -131,8 +146,11 @@ public class BasicMaths {
         int b = 12;
         System.out.println(getGDC(a, b));  */
 
-        int a = 18;
+        /* int a = 18;
         int b = 12;
-        System.out.println(getLCM(a, b));
+        System.out.println(getLCM(a, b)); */
+
+        int num = 12;
+        System.out.println(isArmstrong(num));
     }
 }
