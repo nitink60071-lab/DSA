@@ -38,6 +38,21 @@ public class BasicMaths {
         return reverse;
 
     }
+
+    static boolean  palindromeNum(int num) {
+        int reverse = 0;
+        int original = num;
+        while( num != 0) {
+            int digit = num% 10;
+            reverse = reverse*10 + digit;
+            num = num/10;
+        }
+        if(reverse != original) {
+            return false;
+        } else {
+            return true;
+        }
+    }
     static void main() {
         /*int num = 67543;
         printDigits(num); */
@@ -48,7 +63,10 @@ public class BasicMaths {
         /*int num = 55464;
         System.out.println(sumDigits(num));*/
 
-        int num = 7689;
-        System.out.println("Reverse of number: " + reverseNum(num));
+        /* int num = 7689;
+        System.out.println("Reverse of number: " + reverseNum(num));  */
+
+        int num = 1221;
+        System.out.println(palindromeNum(num));
     }
 }
