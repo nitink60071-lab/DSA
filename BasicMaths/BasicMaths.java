@@ -67,6 +67,16 @@ public class BasicMaths {
         }
         return true;
     }
+
+    // Check Number is prime or not - Minimum Time Complexity =>
+    static boolean isPrimeNum(int num) {
+        for(int i=2; i<Math.sqrt(num); i++) {
+            if(num%i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
     static void main() {
         /*int num = 67543;
         printDigits(num); */
@@ -83,7 +93,10 @@ public class BasicMaths {
         /*int num = 1221;
         palindromeNum(num);  */
 
+        /*int num = 5;
+        System.out.println("Number is Prime: " + isPrime(num)); */
+
         int num = 5;
-        System.out.println("Number is Prime: " + isPrime(num));
+        System.out.println(isPrimeNum(num));
     }
 }
