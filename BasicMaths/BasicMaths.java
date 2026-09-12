@@ -88,6 +88,23 @@ public class BasicMaths {
         int ans = a;
         return ans;
     }
+
+    // Calculate LCM of 2 Numbers =>
+    static int getLCM (int a, int b) {
+        int originalA = a;
+        int originalB = b;
+        while (b != 0) { 
+            // logic to find GDC
+            int oldValueOfb = b;
+            b = a%b;
+            a = oldValueOfb;
+        }
+        int ans = a;
+        int prod = originalA * originalB;
+        // We know that LCM*GDC = a*b, so LCM = a*b/GDC 
+        int lcm = prod/ans;
+        return lcm;
+    }
     static void main() {
         /*int num = 67543;
         printDigits(num); */
@@ -110,8 +127,12 @@ public class BasicMaths {
         /* int num = 5;
         System.out.println(isPrimeNum(num));  */
 
+        /* int a = 18;
+        int b = 12;
+        System.out.println(getGDC(a, b));  */
+
         int a = 18;
         int b = 12;
-        System.out.println(getGDC(a, b));
+        System.out.println(getLCM(a, b));
     }
 }
