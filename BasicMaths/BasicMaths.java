@@ -77,6 +77,17 @@ public class BasicMaths {
         }
         return true;
     }
+
+    // Calculate GDC of 2 numbers =>
+    static int getGDC (int a, int b) {
+        while (b != 0) { 
+            int oldValueOfb = b;
+            b = a%b;
+            a = oldValueOfb;
+        }
+        int ans = a;
+        return ans;
+    }
     static void main() {
         /*int num = 67543;
         printDigits(num); */
@@ -96,7 +107,11 @@ public class BasicMaths {
         /*int num = 5;
         System.out.println("Number is Prime: " + isPrime(num)); */
 
-        int num = 5;
-        System.out.println(isPrimeNum(num));
+        /* int num = 5;
+        System.out.println(isPrimeNum(num));  */
+
+        int a = 18;
+        int b = 12;
+        System.out.println(getGDC(a, b));
     }
 }
