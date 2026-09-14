@@ -106,6 +106,7 @@ public class BasicMaths {
         return lcm;
     }
 
+    // Check given number is Armstrong or not =>
     static boolean isArmstrong(int num) {
         int originalNumber = num;
         int sum = 0;
@@ -119,6 +120,22 @@ public class BasicMaths {
             return true;
         } else 
             return false;
+    }
+
+    static boolean checkPerfectNumber(int num) {
+        int sum = 1;
+        for(int i=2; i<Math.sqrt(num); i++) {
+            if(num % i == 0) {
+                int firstFactor = i;
+                int secondFactor = num/i;
+                sum = sum + firstFactor + secondFactor;
+            }
+        }
+        if( sum == num) {
+            return true;
+        } else {
+            return false;
+        }
     }
     static void main() {
         /*int num = 67543;
@@ -150,7 +167,10 @@ public class BasicMaths {
         int b = 12;
         System.out.println(getLCM(a, b)); */
 
-        int num = 12;
-        System.out.println(isArmstrong(num));
+        /* int num = 12;
+        System.out.println(isArmstrong(num)); */
+
+        int num = 28;
+        System.out.println(checkPerfectNumber(num));
     }
 }
