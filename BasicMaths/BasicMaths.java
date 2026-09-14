@@ -137,6 +137,7 @@ public class BasicMaths {
             return false;
         }
     }
+
     static void main() {
         /*int num = 67543;
         printDigits(num); */
