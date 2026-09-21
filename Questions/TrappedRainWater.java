@@ -1,6 +1,9 @@
 public class TrappedRainWater {
     public static int trappedRainWater(int height[]) {
+        // LeetCode Problem 42 =>
+
         int n = height.length;
+        
         // calculate left max boundary - array =>
         int leftMax[] = new int[n];
         leftMax[0] = height[0];
