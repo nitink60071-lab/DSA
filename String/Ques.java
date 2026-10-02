@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Ques {
     static void printString(String str) {
         //Print each character of the String =>
@@ -79,7 +81,20 @@ public class Ques {
        /* String str3 = "nitin";
        System.out.println(checkPalindrome(str3));  */
 
-       String str4 = "dad";
-       System.out.println(isPolindrome(str4));
+       /*String str4 = "dad";
+       System.out.println(isPolindrome(str4));  */
+
+       // Count of LowerCase vowels =>
+       Scanner sc = new Scanner(System.in);
+       String str = sc.nextLine();
+       int count = 0;
+
+       for(int i=0; i<str.length(); i++) {
+            char ch = str.charAt(i);
+            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                count ++;
+            }
+       }
+       System.out.println("Total count of lowerCase Vowels is: " + count);
     }
 }
